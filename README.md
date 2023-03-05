@@ -1,5 +1,4 @@
-
-## Mental Health Insights on Working Environment based on Stack Overflow 2022 Survey Analysis.
+# Mental Health Insights on Working Environment based on Stack Overflow 2022 Survey Analysis.
 
 This analysis aims to explore the [Stack Overflow 2022 survey results dataset](https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2022.zip) results related to mental health in the workplace, answering six key questions related to the prevalence of mental health. The goal is to provide statistical and visual insights to help organizations prioritize mental health programs and initiatives. The graphs demonstrate the importance of prioritizing mental health programs in the workplace and supporting the workforce’s overall well-being.
 
@@ -13,10 +12,12 @@ I invite you to share your thoughts by leaving a comment below or opening a pull
 I would greatly appreciate your feedback on my analysis. Together, we can enhance the quality of our work and achieve better results.
 
 ## Installation
-If you are using Colab, you can simply hit the Run All button.
-This code runs with Python 3+ and it requried a few libraries that you can install using:
 
-	pip install requirements.txt
+To get started, extract the compressed ZIP file that contains the dataset and the survey data explanation, which includes the survey PDF and its schema.
+
+Note that this code is compatible with Python 3 or higher, and requires a few libraries which can be installed using the following command:
+
+	pip install -r requirements.txt
 
 ## Libraries Used
 - pandas==1.3.5
@@ -25,12 +26,13 @@ This code runs with Python 3+ and it requried a few libraries that you can insta
 - statsmodels==0.13.5
 
 ## File Desction
-- **stack-overflow-survey-2022.csv.zip** - Compressed downloaded dataset - CSV file
-- **stack-overflow-survey-2022.ipynb** - Notebook containing the data analysis
 - **requirements.txt** - Py installation requirements
+- **stack-overflow-survey-2022.ipynb** - Notebook containing the data analysis
+- **stack-overflow-developer-survey-2022.zip** - Compressed downloaded dataset files
+- **stack-overflow-developer-survey-2022/survey_results_public.csv** Uncompressed CSV dataset itself
 
 ## Licensing, Author and Acknowledgements
+- Author: [Luccas Perone](https://github.com/peronecode)
 - License: [MIT License](https://opensource.org/license/mit/)
-- Author: Luccas Perone
 - Data Source: [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey)
 *Thanks, Stack Overflow for helping developers worldwide and conducting the Annual Developer Survey, you rock!* 🤘🏻
